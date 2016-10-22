@@ -13,7 +13,7 @@ public class Utility {
 	public static String[][] readXlsFile(String fileName) throws BiffException, IOException
 	{
 		
-    //Creating a new file       
+    //Creating a new file          
 		
 		File srcFile = new File(fileName);
 		System.out.println(srcFile.getAbsolutePath());
@@ -28,7 +28,7 @@ public class Utility {
 		
 		//Array
 		String data[][] = new String[rows][cols];
-		
+		   
 		
 		
 		for(int i =0 ;i<rows;i++)
