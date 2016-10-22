@@ -13,11 +13,7 @@ public class Utility {
 	public static String[][] readXlsFile(String fileName) throws BiffException, IOException
 	{
 		
-		//Adding Comments
-		//Adding Comments
-		//Adding Comments
-		//Adding Comments
-		//Adding Comments
+    //Creating a new file
 		File srcFile = new File(fileName);
 		System.out.println(srcFile.getAbsolutePath());
 		
